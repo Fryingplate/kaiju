@@ -107,3 +107,18 @@ body.dark p {
 body.dark ul li a {
     color: #80cbc4;
 }
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    body {
+        padding: 0 1rem;
+    }
+
+    header.head {
+        flex-direction: column;
+    }
+
+    .hero-image {
+        max-width: 100%;
+    }
+}
